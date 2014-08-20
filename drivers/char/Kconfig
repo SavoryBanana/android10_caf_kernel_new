@@ -653,10 +653,7 @@ config FRANDOM
 	  (/dev/erandom) of the kernel's entropy pool, so it is very
 	  useful for applications that require a handy source for lots
 	  of random data.
-
 	  http://www.billauer.co.il/frandom.html
-
 	  If unsure here, select N.
-
 endmenu
 
