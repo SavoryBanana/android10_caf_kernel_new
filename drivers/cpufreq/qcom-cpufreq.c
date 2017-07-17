@@ -1,4 +1,4 @@
-/* drivers/cpufreq/qcom-cpufreq.c
+ /* drivers/cpufreq/qcom-cpufreq.c
  *
  * MSM architecture cpufreq driver
  *
@@ -398,6 +398,9 @@ static int __init msm_cpufreq_probe(struct platform_device *pdev)
 		c = devm_clk_get(dev, clk_name);
 		if (IS_ERR(c))
 			return PTR_ERR(c);
+
+		else if (IS_ERR(c))
+			c = cpu_clk[cpu-1];
 		c->flags |= CLKFLAG_NO_RATE_CACHE;
 		cpu_clk[cpu] = c;
 	}
