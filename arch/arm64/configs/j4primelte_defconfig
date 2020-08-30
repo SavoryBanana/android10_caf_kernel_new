@@ -3,7 +3,7 @@
 # Linux/arm64 3.18.140 Kernel Configuration
 #
 
-CONFIG_LOCALVERSION="-MedusaKernel-v3.0-SquashFS-CAF"
+CONFIG_LOCALVERSION="-MedusaKernel-v3.0-CodeAuroraForum-ARM64"
 # CONFIG_LOCALVERSION_AUTO is not set
 CONFIG_AUDIT=y
 CONFIG_NO_HZ=y
