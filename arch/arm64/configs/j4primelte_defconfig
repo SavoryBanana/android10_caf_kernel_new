@@ -476,6 +476,8 @@ CONFIG_REGMAP_SPI=y
 CONFIG_DMA_SHARED_BUFFER=y
 CONFIG_DMA_CMA=y
 CONFIG_ZRAM=y
+CONFIG_ZRAM_LZ4_COMPRESS=y
+# CONFIG_ZRAM_DEBUG is not set
 #
 # Default contiguous memory area size:
 #
