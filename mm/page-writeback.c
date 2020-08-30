@@ -92,15 +92,11 @@ int vm_highmem_is_dirtyable;
 /*
  * The generator of dirty data starts writeback at this percentage
  */
-<<<<<<< HEAD
-int vm_dirty_ratio = 20;
-=======
 #ifdef CONFIG_ZEN_INTERACTIVE
 int vm_dirty_ratio = 30;
 #else
 int vm_dirty_ratio = 20;
 #endif
->>>>>>> 79c6094d831a... [BACKPORT] Implement zen-tune v4.5
 
 /*
  * vm_dirty_bytes starts at 0 (disabled) so that it is a function of
