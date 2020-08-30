@@ -624,7 +624,7 @@ CONFIG_ZEN_INTERACTIVE=y
 # CPU frequency scaling drivers
 #
 # CONFIG_CPUFREQ_DT is not set
-CONFIG_CPU_BOOST=y
+# CONFIG_CPU_BOOST is not set
 
 #
 # ARM CPU frequency scaling drivers
